@@ -1,4 +1,4 @@
-#include<stdio.
+#include<stdio>
 /**
  * main -main entry point
  * return:always 0(success)
