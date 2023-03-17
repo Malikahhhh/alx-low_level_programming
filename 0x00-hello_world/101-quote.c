@@ -6,8 +6,8 @@
  * Return 1 (Success)
  */
 int main(void)
+	/*code goes here*/
 	fputs("and that piece of art is useful\"
 		- Dora Korpar, 2015-10-19\n", stdout);
-	/* code goes here */
-	return (1);
+	return (1);/*Successfulexecution of the program*/
 }
