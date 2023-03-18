@@ -1,8 +1,10 @@
 #include<stdio.h>
 /**
- * main - Entry poiny
+ * main - Entry point
  *
- * return: always 0
+ * Description: print alphabets in  lowercase and uppercase
+ *
+ * Return: always 0
  */
 int main(void)
 {
