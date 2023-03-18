@@ -1,11 +1,17 @@
 #include<stdio.h>
-int main(void) {
-    char letter = 'a';   // initialize letter to the first lowercase letter
-    while (letter <= 'z') {   // loop through all the lowercase letters
-        putchar(letter);      // print the current letter
-        letter++;             // move to the next letter
-    }
-    putchar('\n');   //printa newline character after all the letters are printed
-    return 0;
-}
+/**
+ * main - Entry point
+ * description print alphabets in lowercase
+ * Return: Always 0
+ */
+int main (void)
+{
+	int n =97;
 
+	while (n <=122)
+	{
+		putchar(n);
+		n++;
+	}
+	putchar("/n");
+	return(0);
