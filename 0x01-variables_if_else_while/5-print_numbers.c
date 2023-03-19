@@ -2,9 +2,9 @@
 /**
  * main -Entry point
  *
- * description  prints all single digit numbers of base 10 starting from
+ * description  'print numbers of base 10'
  *
- * return: Always 0
+ * return: Always (0) Success
  */
 int main(void)
 {
@@ -15,5 +15,10 @@ int main(void)
 		printf("%d", n);
 	}
 	printf("\n");
+	/**
+        * Return value
+        * 0 - success
+        * non-zero - error
+        */
 	return (0);
 }
