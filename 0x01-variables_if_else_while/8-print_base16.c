@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main - Prints all the numbers of base 16 in lowercase
- *
+ * main - Entry point
+ * Description: 'Print all possible combinations of single digit numbers'
  * Return: always 0
  */
 int main(void)
