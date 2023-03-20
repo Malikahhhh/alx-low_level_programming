@@ -2,7 +2,7 @@
 /**
  * main - Prints all possible combinbination of a pair of
  * two digit numbers, without any repetition.
- *
+(*
  * Return: 0 on success.
  */
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 				putchar(' ');
 				putchar((j / 10) + '0');
 				putchar((j % 10) + '0');
-				if (i != 98 || j != 99);
+				if (i != 98 || j != 99)
 				{
 					putchar(',');
 					putchar(' ');
